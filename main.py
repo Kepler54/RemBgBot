@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 dp = Dispatcher()
 
 
-def create_path():
+def create_path() -> None:
     try:
         mkdir('input_images')
         mkdir('output_images')
